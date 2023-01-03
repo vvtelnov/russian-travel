@@ -1,0 +1,273 @@
+.page {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1280px;
+	background-color: #2A2C2F;
+	color: #FFFFFF;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 28px 48px 56px;
+}
+
+.header__lang-links {
+	display: flex;
+	width: 78px;
+	height: 28px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__lang-link {
+	width: 30px;
+	height: 28px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.header__lang-link_type_active {
+	text-decoration: underline;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.lead {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.lead__title {
+	max-width: 720px;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 1.04;
+	text-align: center;
+	margin: 0;
+}
+
+.lead__subtitle {
+	max-width: 640px;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.2;
+	text-align: center;
+	margin: 32px 0 64px;
+}
+
+.lead__image {
+	max-width: 984px;
+	max-height: 615px;
+
+}
+
+.lead__image_road-map {
+	background-image: url(../images/road-map.png);
+	z-index: 5;
+	width: 224.59px;
+	height: 886px;
+}
+
+.lead__caption {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	align-self: flex-start;
+	margin: 0;
+	margin-left: 148px;
+	text-transform: uppercase;
+}
+
+.intro {}
+
+.intro__title {
+	max-width: 690px;
+	font-weight: 900;
+	font-size: 54px;
+	line-height: 1.07;
+	margin: 114px 0 40px 148px;
+}
+
+.intro__text {
+	max-width: 690px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 163%;
+	margin: 0 0 33px 148px;
+}
+
+.intro__list {
+	list-style-type: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	margin-left: 148px;
+}
+
+.photo-grid {
+	margin: 92px 48px 92px;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+}
+
+.places {
+	display: grid;
+	grid-template-columns: 928px;
+	grid-template-rows: repeat(5, 1fr);
+	row-gap: 80px;
+	justify-content: center;
+}
+
+.place {
+	display: grid;
+	max-height: 660px;
+	grid-template-columns: 440px 456px;
+	grid-template-rows: 152px 5fr;
+	column-gap: 32px;
+	row-gap: 48px;
+
+}
+
+.place__title {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 76px;
+	margin: 0;
+}
+
+.place__image {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	height: 440px;
+	width: 440px;
+}
+
+.place__website {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.place__url-heading {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.7;
+	letter-spacing: 2px;
+}
+
+.place__link {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.22;
+	text-decoration-line: underline;
+	color: #FFFFFF;
+}
+
+.place__paragraphs {
+}
+
+.place__paragraphs :nth-child(1n) {
+	margin-bottom: 26px;
+}
+
+.place__paragraph {
+	margin: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.63;
+}
+
+.cover {
+	margin: 92px auto 0;
+	width: 1184px;
+	height: 740px;
+}
+
+.cover__overlay {
+	/* background-image: url(../images/__overlay.jpg); */
+	width: 1184px;
+	height: 740px;
+	/* opacity: 0.3; */
+	background-color: rgba(192, 192, 194, 0.3);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover__background {
+	background-image: url(../images/__background.jpg);
+	width: 100%;
+	width: 1184px;
+	height: 740px;
+	background-size: cover;
+}
+
+.cover__title {
+	margin: 0 0 32px;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 1.06;
+	text-align: center;
+}
+
+.cover__subtitle {
+	margin: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.22;
+	text-align: center;
+}
+
+.footer {
+	margin: 92px 0 24px;
+	
+	max-height: 18px;
+	max-width: 1184px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer__links {
+	display: flex;
+	flex-direction: flex-start;
+}
+
+.footer__links :last-child {
+	margin-right: 0;
+}
+
+.footer__link {
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 18px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.12;
+}
+
+.copyrights {
+	margin: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: right;
+}
