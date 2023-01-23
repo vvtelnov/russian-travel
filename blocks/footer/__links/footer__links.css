@@ -1,0 +1,8 @@
+.footer__links {
+	display: flex;
+	flex-direction: flex-start;
+}
+
+.footer__links :last-child {
+	margin-right: 0;
+}
