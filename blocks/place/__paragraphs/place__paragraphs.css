@@ -1,5 +1,2 @@
-.place__paragraphs {}
-
-.place__paragraphs :nth-child(1n) {
-	margin-bottom: 26px;
+.place__paragraphs {
 }

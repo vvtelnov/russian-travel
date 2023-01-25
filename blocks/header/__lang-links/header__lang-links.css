@@ -1,7 +1,6 @@
 .header__lang-links {
 	display: flex;
-	width: 78px;
-	height: 28px;
+	width: 77px;
 	justify-content: space-between;
 	align-items: center;
 }

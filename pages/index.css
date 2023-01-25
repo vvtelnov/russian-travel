@@ -26,6 +26,7 @@
 
 /* Section photo-grid*/
 @import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__img/photo-grid__img.css");
 
 /* Section places*/
 @import url("../blocks/places/places.css");

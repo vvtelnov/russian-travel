@@ -1,6 +1,11 @@
 .place__image {
 	grid-column-start: 1;
 	grid-row-start: 2;
-	height: 440px;
-	width: 440px;
+	width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+	.place__image {
+		grid-row-start: 3;
+	}
 }

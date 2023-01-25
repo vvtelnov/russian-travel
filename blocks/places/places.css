@@ -1,7 +1,19 @@
 .places {
 	display: grid;
-	grid-template-columns: 928px;
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: fit-content(984px);
+	grid-template-rows: repeat(5, fit-content(1fr));
 	row-gap: 80px;
 	justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.places {
+		grid-template-columns: fit-content(928px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places {
+		grid-template-columns: fit-content(720px);
+	}
 }
