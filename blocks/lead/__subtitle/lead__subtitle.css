@@ -4,5 +4,37 @@
 	font-size: 30px;
 	line-height: 1.2;
 	text-align: center;
-	margin: 32px 0 64px;
+	margin: 32px auto 64px;
+}
+
+@media screen and (max-width: 720px) {
+	.lead__subtitle {
+		font-size: 25px;
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 445px) {
+	.lead__subtitle {
+		font-size: 23.5px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.lead__subtitle {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 332px) {
+	.lead__subtitle {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead__subtitle {
+		font-size: 16px;
+		line-height: 1.25;
+	}
 }
