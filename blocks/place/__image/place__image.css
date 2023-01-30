@@ -1,0 +1,14 @@
+.place__image {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+@media screen and (max-width: 587px) {
+	.place__image {
+		grid-row-start: 3;
+	}
+}
