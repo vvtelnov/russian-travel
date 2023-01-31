@@ -6,7 +6,7 @@
 	text-align: right;
 }
 
-@media screen and (max-width: 548x) {
+@media screen and (max-width: 548px) {
 	.copyrights  {
 		line-height: 1;
 	}
