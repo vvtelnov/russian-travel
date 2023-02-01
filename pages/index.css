@@ -24,7 +24,9 @@
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
-@import url("../blocks/intro/__list/_type/intro__list_type_number.css");
+@import url("../blocks/intro/__line/intro__line.css");
+@import url("../blocks/intro/__line/_content/intro__line_content_number.css");
+
 
 /* Section photo-grid*/
 @import url("../blocks/photo-grid/photo-grid.css");
