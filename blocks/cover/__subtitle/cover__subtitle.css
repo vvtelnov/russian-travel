@@ -10,6 +10,18 @@
 	padding-bottom: 20.7%;
 }
 
+@media screen and (max-width: 1024px) {
+	.cover__subtitle {
+		padding-bottom: 19.042%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover__subtitle {
+		padding-bottom: 14.973%;
+	}
+}
+
 @media screen and (max-width: 590px) {
 	.cover__subtitle {
 		font-size: 16px;
@@ -30,15 +42,12 @@
 	.cover__subtitle {
 		font-size: 14px;
 		line-height: 1.15;
-		padding-bottom: 10.32%;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.cover__subtitle {
 		max-width: 288px;
-		font-size: 14px;
 		line-height: 1.14;
-		padding-bottom: 10.32%;
 	}
 }

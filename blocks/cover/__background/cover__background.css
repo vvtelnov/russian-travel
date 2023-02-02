@@ -1,0 +1,26 @@
+.cover__background {
+	width: 100%;
+	position: relative;
+	background-image: url("../../../images/__background.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__background::after {
+	content: "";
+	background: #2A2C2F;
+	opacity: 0.3;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.cover__background:hover::after {
+	background: #2A2C2F;
+	opacity: 0.8;
+}

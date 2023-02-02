@@ -6,12 +6,13 @@
 	margin-right: 0;
 }
 
-@media screen and (max-width: 548px) {
+@media screen and (max-width: 714px) {
 	.footer__links  {
-		min-height: 248px;
 		flex-direction: column;
 		justify-content: space-between;
+	}
 
-
+	.footer__links :first-child {
+		margin-top: 0;
 	}
 }

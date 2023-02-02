@@ -15,5 +15,24 @@
 @media screen and (max-width: 768px) {
 	.places {
 		grid-template-columns: fit-content(720px);
+		row-gap: 73px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.places {
+		row-gap: 70px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.places {
+		row-gap: 65px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places {
+		row-gap: 50px;
 	}
 }

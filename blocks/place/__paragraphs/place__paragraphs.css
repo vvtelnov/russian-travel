@@ -1,2 +1,6 @@
 .place__paragraphs {
 }
+
+.place__paragraphs :last-child {
+    margin-bottom: 0;
+}
